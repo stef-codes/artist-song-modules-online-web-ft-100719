@@ -1,6 +1,4 @@
-module Memorable 
-  
-   extend FancyDance::ClassMethods
+module Memorable
    def reset_all
     all.clear
    end
